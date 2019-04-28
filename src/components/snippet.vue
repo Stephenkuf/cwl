@@ -939,7 +939,7 @@ export default {
 			this.error.firm_type = false;
 
 			if (
-				this.member.senior_advocate_of_nigeria === "" ||
+				this.member.senior_advocate_of_nigeria === "" || 
 				!this.member.year_of_call ||
 				!this.member.supreme_court_number ||
 				!this.member.gender ||

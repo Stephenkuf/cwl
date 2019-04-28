@@ -239,11 +239,11 @@ export default {
 
 <style scoped>
 
-
-.main{
+.main {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
+
 .steps {
     display: table-cell;
 	color: #B6B5B5;
