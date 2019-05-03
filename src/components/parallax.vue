@@ -77,4 +77,20 @@ export default {
     }  
 }
 
+@media only screen and (max-width: 767px) {
+
+    #home {
+        height: auto !important;
+        padding: 60px 0;
+    }
+    .home-parallax {
+        background-attachment: scroll;
+        background-position: top center !important;
+        background-size: cover;
+    }
+    .home-logo-text a {
+        font-size: 70px;
+        font-weight: bold;
+    }
+}
 </style>

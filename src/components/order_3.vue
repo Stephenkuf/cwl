@@ -18,7 +18,7 @@
 					</div>
 
 					<div class="col-lg-3 steps">
-						<div class="">
+						<div class="steps-active">
 							<div class="steps-icon">
 								<i class="fa fa-check"></i>
 							</div>
@@ -30,7 +30,7 @@
 					</div>
 
 					<div class="col-lg-3 steps">
-						<div class="">
+						<div class="steps-active">
 							<div class="steps-icon">
 								<i class="fa fa-check"></i>
 							</div>
@@ -59,99 +59,47 @@
 				<div class="row">
 					<div class="col-xs-8 left-container">
 						<div class="order-main-details">
-							<div class="order-main-details-title">Select the type of content that you need</div>
+							<div class="order-main-details-title">Account Details - Do you already have an account?</div>
 						
 							<div class="order-main-details-body">
-						
-								<div class="steps-1">
-									<!--content item"-->
-									
-									<div id="select_content_1" class="content-type url-link select-content" style="margin-left:5px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Article" data-ajax-content-id="1"> <i class="far fa-file-word content-type-icon"></i>
-										<div class="content-type-title">Article</div>
-										<div class="clearfix"></div>
+								<div class="order-account-existing">
+									<div class="order-account-title-existing">Yes, I already have an account</div>
+									<div class="form-group row">
+										<div class="col-6">
+											<div class="input-group-prepend"> <span class="input-group-text">@</span>
+												<input type="text" class="form-control existing-customer-input" id="rw_ordering_existing_customer_email" name="rw_ordering_existing_customer_email" autocomplete="off" placeholder="email address" data-url="http://dashboard.rightlywritten.com/order/ajax/verify-existing-customer" data-next-step-url="http://dashboard.rightlywritten.com/order/cart/4">
+											</div>
+										</div>
+										<div class="col-6">
+											<div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-key"></i></span>
+											<input type="password" class="form-control existing-customer-input" id="rw_ordering_existing_customer_password" name="rw_ordering_existing_customer_password" autocomplete="off" placeholder="password" data-url="http://dashboard.rightlywritten.com/order/ajax/verify-existing-customer" data-next-step-url="http://dashboard.rightlywritten.com/order/cart/4">
+											</div>
+										</div>
 									</div>
-									
-									<div id="select_content_2" class="content-type select-content" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="Blog Posting" data-ajax-content-name="Blog Post" data-ajax-content-id="2"> <i class="fa fa-coffee content-type-icon"></i>
-										<div class="content-type-title">Blog Post</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_3" class="content-type select-content content-type-selected" style="margin-right:0px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Website Content" data-ajax-content-id="3"> <i class="fa fa-globe content-type-icon"></i>
-										<div class="content-type-title">Website Content</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_4" class="content-type url-link select-content" style="margin-left:5px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Press Release" data-ajax-content-id="4"> <i class="fa fa-quote-right content-type-icon"></i>
-										<div class="content-type-title">Press Release</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_5" class="content-type select-content" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Social Media Content" data-ajax-content-id="5"> <i class="fab fa-facebook-square content-type-icon"></i>
-										<div class="content-type-title">Social Media Content</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_6" class="content-type select-content" style="margin-right:0px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Product Description" data-ajax-content-id="6"> <i class="fa fa-tags content-type-icon"></i>
-										<div class="content-type-title">Product Description</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_7" class="content-type url-link select-content" style="margin-left:5px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Review Writing" data-ajax-content-id="7"> <i class="fa fa-star content-type-icon"></i>
-										<div class="content-type-title">Review Writing</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_8" class="content-type select-content" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Creative Writing" data-ajax-content-id="8"> <i class="fa fa-paper-plane content-type-icon"></i>
-										<div class="content-type-title">Creative Writing</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_9" class="content-type select-content" style="margin-right:0px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Technical Writing" data-ajax-content-id="9"> <i class="fa fa-plug content-type-icon"></i>
-										<div class="content-type-title">Technical Writing</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_11" class="content-type url-link select-content" style="margin-left:5px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Email / Newsletter" data-ajax-content-id="11"> <i class="fa fa-envelope content-type-icon"></i>
-										<div class="content-type-title">Email / Newsletter</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_12" class="content-type select-content" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="E-Book" data-ajax-content-id="12"> <i class="fa fa-book content-type-icon"></i>
-										<div class="content-type-title">E-Book</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_13" class="content-type select-content" style="margin-right:0px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="White Paper" data-ajax-content-id="13"> <i class="far fa-file content-type-icon"></i>
-										<div class="content-type-title">White Paper</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_14" class="content-type url-link select-content" style="margin-left:5px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Resume / Cover Letter" data-ajax-content-id="14"> <i class="fa fa-user content-type-icon"></i>
-										<div class="content-type-title">Resume / Cover Letter</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_15" class="content-type select-content" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Tagline / Slogan" data-ajax-content-id="15"> <i class="fas fa-bookmark content-type-icon"></i>
-										<div class="content-type-title">Tagline / Slogan</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_16" class="content-type select-content" style="margin-right:0px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Video / Audio Script" data-ajax-content-id="16"> <i class="fas fa-video content-type-icon"></i>
-										<div class="content-type-title">Video / Audio Script</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<div id="select_content_17" class="content-type url-link select-content" style="margin-left:5px;" data-ajax-url="http://dashboard.rightlywritten.com/order/ajax/toggle-selected-item" data-ajax-content-logic-tag="None" data-ajax-content-name="Misc" data-ajax-content-id="17"> <i class="fa fa-edit content-type-icon"></i>
-										<div class="content-type-title">Misc</div>
-										<div class="clearfix"></div>
-									</div>
-									
-									<!--content item"-->
 									<div class="clearfix"></div>
-            					</div><!-- /. steps-l -->
+								</div>
 
+								<div class="order-account-or">-OR-</div>
+
+								<div class="order-account-new">
+									<div class="order-account-title-new">No, Create a new account</div>
+
+									<div class="form-group row">
+										<div class="col-6">
+											<label class="control-label"> Full Name</label>
+											<input type="text" class="form-control new-customer-input" id="rw_ordering_new_customer_name" name="rw_ordering_new_customer_name" autocomplete="off" data-url="http://dashboard.rightlywritten.com/order/ajax/add-new-customer">
+											<input type="hidden" id="rw_ordering_new_customer_company_name" name="rw_ordering_new_customer_company_name">
+										</div>
+									
+										<div class="col-6">
+											<label class="control-label"> Email Address</label>
+											<input type="text" class="form-control new-customer-input" id="rw_ordering_new_customer_company_email" name="rw_ordering_new_customer_company_email" autocomplete="off" data-url="http://dashboard.rightlywritten.com/order/ajax/add-new-customer" data-next-step-url="http://dashboard.rightlywritten.com/order/cart/4">
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
 								<div class="clearfix"></div>
-							</div> 
+							</div> <!-- order body -->
 						</div> <!-- order-main-details end -->
 					</div>
 
@@ -274,9 +222,9 @@
 									</div>
 								</div>
 
-								<div class="order-summary-page-button"> 
-									<router-link to="/order/2" class="btn btn-large btn-default pull-right" id="steps-button">CONTINUE</router-link>
-									
+								<div class="order-summary-page-button">
+									<router-link to="/order/4" class="btn btn-large btn-success pull-right" id="steps-button">CONTINUE</router-link>
+									<router-link to="/order/2" class="btn btn-large btn-default pull-left">BACK</router-link>
 									<div class="clearfix"></div>
 								</div>
 								
@@ -298,8 +246,67 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 
 
+/* ORDER 3 */
+.order-account-existing {
+    margin-bottom: 40px;
+}
+.order-account-title-existing {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.order-form-halves {
+    width: 360px;
+    float: left;
+    padding-left: 24px;
+}
+.order-account-or {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.order-account-new {
+    padding: 15px;
+    background-color: #F0F0F0;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.order-account-title-new {
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: rgb(92, 184, 92);
+}
+.order-main-details .input-group-text {
+    border-radius: 0px;
+    background-color: #F0F0F0;
+    color: rgb(144, 144, 144);
+}
+
+.input-group-text:first-child {
+    border-right: 0;
+}
+.order-main-details .form-group {
+    margin-bottom: 25px;
+}
+
+.order-main-details .control-label {
+    font-weight: normal;
+}
+
+.order-main-details .form-control {
+    background-color: #ffffff;
+    height: 40px;
+    /* line-height: 40px !important; */
+    /* box-shadow: none; */
+    border-radius: 0px;
+    color: rgb(128, 128, 128);
+    border-color: #DDDDDD;
+}
+
+input:-internal-autofill-previewed, input:-internal-autofill-selected, textarea:-internal-autofill-previewed, textarea:-internal-autofill-selected, select:-internal-autofill-previewed, select:-internal-autofill-selected  {
+	background-color: #ffffff !important;
+}
 </style>
 

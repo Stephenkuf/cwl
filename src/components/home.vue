@@ -2,27 +2,74 @@
     <div>
 
         <!-- About us -->
-         <section class="abcw-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 p-md-5 img" style="background-image: url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
-                    
-                    </div>
-                    
-                    <div class="col-md-7">
-                        <div class="heading-section mb-5 pl-md-5">
-                            <div class="pl-md-5 ml-md-5">
-                                <span class="subheading subheading-with-line"><small class="pr-2 bg-white">About</small></span>
-                                <h2 class="mb-4">We aim to deliver the best of Content to each and everyone</h2>
+        <section class="abcw-section">
+            <div class="container-fluid">
+                <div>
+                    <!-- <div class="col-md-5 p-md-5 img" style="background-image: url(https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);"></div> -->
+                    <!-- <div class="heading-section mb-5 pl-md-5">
+                        <div class="pl-md-5 ml-md-5">
+                            <span class="subheading subheading-with-line"><small class="pr-2 bg-white">ABOUT</small></span>
+                            <h2 class="mb-4">We aim to deliver the best of Content to each and everyone</h2>
+                        </div>
+                    </div> -->
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="heading-section mb-5 pl-md-5">
+                                <div>
+                                    <span class="subheading subheading-with-line"><small class="pr-2 bg-white">CONTENT THAT WORKS</small></span>
+                                    <h2 class="mb-4">Whatever industry you’re in, you need expert writers who can engage your audience. We’ll find those writers for you.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- /.first row -->
+
+                    <div class="row">
+                        <div class="col-md-3 about-each-block">
+                            <div class="card about-each-block-inner mb-5">
+                                <div class="">
+                                    <img class="icon"  src="../assets/img/tap.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">AGENCIES</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="pl-md-5 ml-md-5 mb-5 pb-5">
-							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-							<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-							
-                            <a href="#"  class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a>
-						</div>
+                        <div class="col-md-3 about-each-block">
+                            <div class="card about-each-block-inner mb-5">
+                                <div class="">
+                                    <img class="icon img-responsive"  src="../assets/img/monitor.png" width="70px" height="70px" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">PUBLISHERS</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 about-each-block">
+                            <div class="card about-each-block-inner mb-5">
+                                <div class="">
+                                    <img class="icon"  src="../assets/img/report.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">ECOMMERCE</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 about-each-block">
+                            <div class="card about-each-block-inner mb-5">
+                                <div class="">
+                                    <img class="icon"  src="../assets/img/report.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">BRANDS</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -35,8 +82,8 @@
             <div class="">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 steps">
-                            <div class="steps-inner">
+                        <div class="col-md-4 process-steps">
+                            <div class="process-steps-inner">
                                 <div class="">
                                     <img class="icon"  src="../assets/img/tap.png" alt="">
                                 </div>
@@ -45,8 +92,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 steps">
-                            <div class="steps-inner">
+                        <div class="col-md-4 process-steps">
+                            <div class="process-steps-inner">
                                 <div class="">
                                     <img class="icon img-responsive"  src="../assets/img/monitor.png" width="70px" height="70px" alt="">
                                 </div>
@@ -55,8 +102,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 steps">
-                            <div class="steps-inner">
+                        <div class="col-md-4 process-steps">
+                            <div class="process-steps-inner">
                                 <div class="">
                                     <img class="icon"  src="../assets/img/report.png" alt="">
                                 </div>
@@ -154,8 +201,8 @@
             <div class="container-fluid call-to-action">
                 <div class="row cta">
                     <div class="col-lg-12 text-center">
-                        <h3>Are you ready to start a converstion?</h3> <br> 
-                        <a href="#" class="btn btn-cta bkg-color text-uppercase">GET STARTED</a>
+                        <h3>Are you ready to start a converstion?</h3> <br>
+                        <router-link to="/order/1" class="btn btn-cta bkg-color text-uppercase">GET STARTED</router-link>
                     </div>
                     
                 </div>
@@ -168,7 +215,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <h3 class="text-white">"Everybody walks past a thousand story ideas every day. The good writers are the ones who see five or six of them. Most people don’t see any."</h3>
+                            <h3 class="text-white">"Everybody walks past a thousand story ideas every day. <br>
+                            The good writers are the ones who see five or six of them. Most people don’t see any."</h3>
                             <span class="text-white">- Orson Scott</span>
                         </div>
                     </div>    
@@ -262,46 +310,46 @@
                             <div class="inner-contact">
                                 <p class="mb-50 lead">Need a professional creating writing agency for your next project. Contact us and tell us more about your project.</p>
                                 <div class="form-cover">
-                                     <form class="contact-form" method="post" action="" role="form">
+                                    <form class="contact-form" method="post" action="" role="form">
 
-                                    <div class="messages"></div>
+                                        <div class="messages"></div>
 
-                                    <div class="controls">
+                                        <div class="controls">
 
-                                        <div class="form-group row">
-                                            
-                                            <div class="col-6">
-                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="First Name *" required="required" data-error="Firstname is required.">
-                                                <div class="help-block with-errors"></div>
+                                            <div class="form-group row">
+                                                
+                                                <div class="col-6">
+                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="First Name *" required="required" data-error="Firstname is required.">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                                
+                                                
+                                                
+                                                <div class="col-6">
+                                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last Name *" required="required" data-error="Lastname is required.">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group row">
+                                                <div class="col-12">
+                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Email address*" required="required" data-error="Valid email is required.">
+                                                    <div class="help-block with-errors"></div>
+                                                </div>    
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <div class="col-md-12">
+                                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="4" required data-error="Please,leave us a message."></textarea>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                                
+                                                <div class="col-md-3">
+                                                    <input type="submit" class="btn button bkg-color btn-send" value="Send Email">
+                                                </div>
                                             </div>
                                             
-                                            
-                                            
-                                            <div class="col-6">
-                                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last Name *" required="required" data-error="Lastname is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-
                                         </div>
-                                        <div class="form-group row">
-                                            <div class="col-12">
-                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Email address*" required="required" data-error="Valid email is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>    
-                                        </div>
-
-                                        <div class="form-group row">
-                                            <div class="col-md-12">
-                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="4" required data-error="Please,leave us a message."></textarea>
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                            
-                                            <div class="col-md-3">
-                                                <input type="submit" class="btn button bkg-color btn-send" value="Send Email">
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
 
                                     </form>
                                 </div>
@@ -356,20 +404,20 @@ export default {
 }
 
 .subheading {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     display: block;
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000000;
+    color: #118601;
     position: relative;
 }
 
 .heading-section h2 {
     font-family: "Oswald",serif;
-    font-size: 28px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .heading-section .subheading.subheading-with-line:after {
@@ -389,6 +437,43 @@ export default {
     color: #118601;
     border-bottom: 4px solid #118601;
 }
+
+
+
+.about-each-block-inner {
+    padding: 1.2rem 0.9rem 1.2rem;
+    text-align: center;
+}
+
+.about-each-block-inner-text {
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    transition:  0.8s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 2px 8px 45px 0 rgb(214, 213, 213);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-top: 0.8rem;
+}
+
+
+
+
 
 /* process */
 #process {
@@ -431,11 +516,11 @@ export default {
     padding: 10px;
 }
 
-.steps {
+.process-steps {
     padding: 20px;
     margin: 0px;
 }
-.steps-inner {
+.process-steps-inner {
     padding: 20px;
     /* border: 2px solid whitesmoke; */
     text-align: center;
@@ -445,6 +530,8 @@ export default {
 .bg-1 {
     background-image: url(../assets/img/banne.jpg);
 }
+
+
 
 /* contact us */
 
@@ -478,6 +565,40 @@ export default {
     letter-spacing: 0.1rem;
     color: #999;
     background: transparent;
+}
+.form-control {
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 25px; 
+}
+
+.form-control::-webkit-input-placeholder {
+  font-size: 13px;
+  color: #333;
+  font-family: "Poppins",sans-serif; 
+}
+
+.form-control::-moz-placeholder {
+  font-size: 13px;
+  color: #333;
+  font-family: "Poppins",sans-serif; 
+}
+
+.form-control:-ms-input-placeholder {
+  font-size: 13px;
+  color: #333;
+  font-family: "Poppins",sans-serif; 
+}
+
+.form-control:-moz-placeholder {
+  font-size: 13px;
+  color: #333;
+  font-family: "Poppins",sans-serif; 
 }
 
 .contact-form textarea {
@@ -547,26 +668,20 @@ input, textarea {
 
 .skill-cont {
     margin: 30px;
-    width: 250px;
     max-height: 100px;
     border: 4px solid white;
     -webkit-box-shadow: 7px 10px 0px -4px rgba(255,255,255,1);
     -moz-box-shadow: 7px 10px 0px -4px rgba(255,255,255,1);
     box-shadow: 7px 10px 0px -4px rgba(255,255,255,1);
-    transition:  0.8s ease;
+    transition:  0.8s ease-in-out;
     display: block
 }
 
 .skill-cont:hover {
     border: 4px solid rgb(158, 226, 247);
     -webkit-box-shadow: 0px 0px 0px 0p x#237bdade;
-    position: relative;
     -moz-box-shadow: 0px 0px 0px 0px #237bdade;
-    position: relative;
     box-shadow:0px 0px 0px 0px  #237bdade;
-    position: relative;
-    top: 2px;
-    left: 5px;
     cursor: pointer;
 }
 
@@ -603,7 +718,7 @@ input, textarea {
 }
 
 .cta, h3 {
-    color: #241c15;
+    color: #1d3d0f;
     font-size: 30px;
     font-weight: 600;
     line-height: 1.0;
@@ -613,6 +728,8 @@ input, textarea {
 .btn-cta {
     border-radius: 0;
     padding: 1rem 2rem;
+    font-weight: 500;
+    font-size: 1.2rem;
     color: #fff;
     transition: 1s all ease;
 }
@@ -620,10 +737,18 @@ input, textarea {
 .btn-cta:hover {
     background: transparent;
     color: #333;
-    box-shadow: 2px 5px 20px 0 rgb(66, 68, 73);
+    box-shadow: 2px 7px 28px 0 #dbdbdbef;
 }
 
 
+
+@media only screen and (max-width: 767px) {
+
+    .hero-5 .media-column {
+        background-image: none;
+    }
+
+}
 /*  */
 
 
@@ -953,24 +1078,6 @@ img {
 }
 
 
-/* .subheading {
-  color: #3c3c3c;
-  padding: 15px 0;
-  text-transform: capitalize;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 45px;
- 
-} */
-
-.section {
-  padding: 80px 0;
-}
-
-.feature-btn{
-    margin: 20px 0;
-}
-
 
 
 .btn-main-sm {
@@ -1055,46 +1162,9 @@ a:hover {
     text-align: center;
     margin-bottom: 28px; }
 
-.form-group {
-  display: flex; }
-  .form-group input {
-    width: 50%; }
-    .form-group input:first-child {
-      margin-right: 25px; }
 
-.form-wrapper {
-  position: relative; }
-  .form-wrapper i {
-    position: absolute;
-    bottom: 9px;
-    right: 0; }
 
-.form-control {
-  border: 1px solid #333;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  display: block;
-  width: 100%;
-  height: 30px;
-  padding: 0;
-  margin-bottom: 25px; }
-  .form-control::-webkit-input-placeholder {
-    font-size: 13px;
-    color: #333;
-    font-family: "Poppins",sans-serif; }
-  .form-control::-moz-placeholder {
-    font-size: 13px;
-    color: #333;
-    font-family: "Poppins",sans-serif; }
-  .form-control:-ms-input-placeholder {
-    font-size: 13px;
-    color: #333;
-    font-family: "Poppins",sans-serif; }
-  .form-control:-moz-placeholder {
-    font-size: 13px;
-    color: #333;
-    font-family: "Poppins",sans-serif; }
+
 
 select {
   -moz-appearance: none;
