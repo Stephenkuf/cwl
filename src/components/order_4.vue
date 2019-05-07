@@ -68,7 +68,7 @@
                   <div class="order-summary-buttons">
                     <button
                       href="#"
-                      class="btn btn-large btn-success pull-right"
+                      class="btn btn-large btn-info pull-right"
                       id="paynow-button"
                       data-session-id="vUVmhjDXAD"
                       data-url="http://dashboard.rightlywritten.com/order/ajax/register-new-order">PAY NOW</button>
@@ -161,7 +161,7 @@ export default {
 }
 
 .order-summary-amount {
-  color: rgb(92, 184, 92);
+  color: #17a2b8;
   font-size: 35px;
   padding-top: 10px;
   display: block;

@@ -203,11 +203,11 @@ progress {
 }
 
 .steps-active .steps-icon {
-  border-color: #83c067 !important;
+  border-color: #17a2b8 !important;
 }
 
 .steps-active .steps-title, .steps-active i {
-	color: #83c067 !important;
+	color: #17a2b8 !important;
 }
 
 .topbar1 {	
@@ -217,7 +217,7 @@ progress {
   margin-bottom: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-left: solid 5px #83C067;
+  border-left: solid 5px #17a2b8;
 }
 
 .order-main-details {
@@ -231,7 +231,7 @@ progress {
 .order-main-details-title {
   text-align: center;
   font-size: 20px;
-  color: #83C067;
+  color: #17a2b8;
   padding-bottom: 25px;
 }
 .content-type {
@@ -284,7 +284,7 @@ progress {
 .order-running-summary-total {
   width: 55%;
   font-size: 34px;
-  color: #74BA55;
+  color: #17a2b8;
   border-right: 2px dotted #E2E2E2;
   float: left;
   padding-left: 30px;
@@ -293,7 +293,7 @@ progress {
   float: right;
   width: 45%;
   font-size: 34px;
-  color: #74BA55;
+  color: #17a2b8;
 }
 .order-summary-page-count {
   border-bottom: 1px solid #E2E2E2;
@@ -432,8 +432,8 @@ progress {
 }
 
 .order-checkbox-active {
-  color: #5cb85c;
-  border: 3px solid #5cb85c;
+  color: #17a2b8;
+  border: 3px solid #17a2b8;
   cursor: pointer;
 }
 

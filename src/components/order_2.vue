@@ -360,8 +360,8 @@
 								</div>
 
 								<div class="order-summary-page-button">
-									<router-link to="/order/3" class="btn btn-large btn-success pull-right" id="steps-button">CONTINUE</router-link>
-									<router-link to="/order/2" class="btn btn-large btn-default pull-left">BACK</router-link>
+									<router-link to="/order/3" class="btn btn-large btn-info pull-right" id="steps-button">CONTINUE</router-link>
+									<router-link to="/order/1" class="btn btn-large btn-default pull-left">BACK</router-link>
 									<div class="clearfix"></div>
 								</div>
 								

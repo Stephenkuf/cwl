@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import mainpage from '@/components/mainpage.vue'
 import login_page from '@/components/login_page.vue'
-import snippet from '@/components/mainn.vue'
+import order1 from '@/components/order.vue'
 import order_2 from '@/components/order_2.vue'
 import order_3 from '@/components/order_3.vue'
 import order_4 from '@/components/order_4.vue'
@@ -26,8 +26,8 @@ export default new Router({
     },
     {
       path: '/order/1',
-      name: 'snip',
-      component: snippet,
+      name: 'order1',
+      component: order1,
       meta: { requiresParallax: false }
     },
     {

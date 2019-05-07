@@ -223,7 +223,7 @@
 								</div>
 
 								<div class="order-summary-page-button">
-									<router-link to="/order/4" class="btn btn-large btn-success pull-right" id="steps-button">CONTINUE</router-link>
+									<router-link to="/order/4" class="btn btn-large btn-info pull-right" id="steps-button">CONTINUE</router-link>
 									<router-link to="/order/2" class="btn btn-large btn-default pull-left">BACK</router-link>
 									<div class="clearfix"></div>
 								</div>
@@ -276,7 +276,7 @@ export default {
 .order-account-title-new {
     padding-bottom: 10px;
     font-size: 16px;
-    color: rgb(92, 184, 92);
+    color: #17a2b8;
 }
 .order-main-details .input-group-text {
     border-radius: 0px;
